@@ -17,10 +17,3 @@ You can install the missing dependencies thorugh `pip`
 4. Push to the branch: git push origin my-new-feature
 5. Submit a pull request
 
-## Authors
-
-+ Muhammad Ali Zia
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/the-javapocalypse/Python-File-Encryptor/blob/master/License.txt) file for details
