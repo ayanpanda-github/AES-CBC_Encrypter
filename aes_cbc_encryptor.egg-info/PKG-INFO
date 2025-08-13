@@ -1,3 +1,49 @@
+Metadata-Version: 2.4
+Name: aes-cbc-encryptor
+Version: 2.0.0
+Summary: A high-performance Python file encryption tool implementing AES-128/256 in CBC mode
+Home-page: https://github.com/yourusername/AES-CBC_Encrypter
+Author: Your Name
+Author-email: your.email@example.com
+Project-URL: Bug Reports, https://github.com/yourusername/AES-CBC_Encryptor/issues
+Project-URL: Source, https://github.com/yourusername/AES-CBC_Encryptor
+Project-URL: Documentation, https://github.com/yourusername/AES-CBC_Encryptor#readme
+Keywords: encryption aes cbc file security cryptography streaming memory-optimized
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: System :: Archiving :: Backup
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography>=3.4.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest-cov>=2.0; extra == "dev"
+Requires-Dist: black>=21.0; extra == "dev"
+Requires-Dist: flake8>=3.8; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # AES-CBC File Encryptor
 
 A high-performance Python file encryption tool implementing AES-128/256 in CBC mode from first principles. This project provides secure file encryption with optimized memory usage and streamlined user experience.
